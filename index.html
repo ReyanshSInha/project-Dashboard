@@ -6,141 +6,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/92abea3f6d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- search section -->
-    <div id="search">
-        <div class="search-icon"></div>
-        <div class="search-bar"></div>
-        <div class="notification-bell"></div>
-        <div class="profile-pic"></div>
-        <div class="profile-name"></div>
-    </div>
-
-    <!-- header -->
-
-    <div id="header">
-        <nav>
-            <ul>
-                <li><div class="profile-pic">A</div></li>
-                <li>
-                    <div class="profile-greetings">
-                         <p class="hello">Hi, there</p>
-                         <p class="name">Morgan Oakley (@morgan)</p>
+    <div class="container">
+        <div class="super-header">
+            <!-- search section -->
+            <div id="search">
+                <div class="search-section">
+                    <div class="search-icon"><i class="fas fa-search"></i></div>
+                    <div class="search-bar"></div>
+                </div>
+                <div class="noti-prof-section">
+                    <div class="notification-bell">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 32V51.2C329 66.03 384 130.6 384 208V226.8C384 273.9 401.3 319.2 432.5 354.4L439.9 362.7C448.3 372.2 450.4 385.6 445.2 397.1C440 408.6 428.6 416 416 416H32C19.4 416 7.971 408.6 2.809 397.1C-2.353 385.6-.2883 372.2 8.084 362.7L15.5 354.4C46.74 319.2 64 273.9 64 226.8V208C64 130.6 118.1 66.03 192 51.2V32C192 14.33 206.3 0 224 0C241.7 0 256 14.33 256 32H256zM224 512C207 512 190.7 505.3 178.7 493.3C166.7 481.3 160 464.1 160 448H288C288 464.1 281.3 481.3 269.3 493.3C257.3 505.3 240.1 512 224 512z"/></svg>
                     </div>
-                </li>
-                <li>
-                    <div class="new">New</div>
-                </li>
-                <li>
-                    <div class="upload">Upload</div>
-                </li>
-                <li>
-                    <div class="share">Share</div>
-                </li>
-            </ul>
-        </nav>
-        
-        
-    </div>
-
-    <!-- sidebar -->
-
-    <div id="sidebar">
-        <div class="dashboard">DashBoard</div>
-        <div class="home">Home</div>
-        <div class="messages">Messages</div>
-        <div class="history">History</div>
-        <div class="tasks">Tasks</div>
-        <div class="communities">Communities</div>
-        <div class="settings">Settings</div>
-        <div class="support">Support</div>
-        <div class="privacy">Privacy</div>
-
-    </div>
-    
-
-    <!-- main -->
-    <div id="main-section">
-
-        <!-- projects -->
-
-        <div class="projects">
-            <p>Your Projects</p>
-            <div class="project1 project">
-                <h3>Super Cool Project</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iusto. Lorem ipsum dolor sit amet.</p>
+                    <div class="profile-pic"></div>
+                    <div class="profile-name">Morgan Oakley</div>
+                </div>
             </div>
-            <div class="project2 project">
-                <h3>Super Cool Project</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iusto. Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="project3 project">
-                <h3>Super Cool Project</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iusto. Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="project4 project">
-                <h3>Super Cool Project</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iusto. Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="project5 project">
-                <h3>Super Cool Project</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iusto. Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="project6 project">
-                <h3>Super Cool Project</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iusto. Lorem ipsum dolor sit amet.</p>
+            <!-- header -->
+            <div id="header">
+                <nav>
+                    <ul>
+                        
+                        <li>
+                            <div class="profile-sec-1">
+                                <div class="profile-pic"></div>
+                                <div class="profile-greetings">
+                                     <p class="hello">Hi, there</p>
+                                     <p class="name">Morgan Oakley (@morgan)</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="profile-buttons">
+                                <div class="new margin-left btn-class text-color">New</div>
+                                <div class="upload margin-left btn-class text-color">Upload</div>
+                                <div class="share margin-left btn-class text-color">Share</div>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                </nav>
+            
+            
             </div>
         </div>
-
-        <!-- announcements -->
-
-        <div class="announcements">
-            <p>Announcements</p>
-            <div class="site-maintainance">
-                <h4>Site Maintainance</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, illo?</p>
+        <!-- sidebar -->
+        <div id="sidebar">
+            <div class="dashboard text-color">DashBoard</div>
+            <div class="side-sec-1">
+                <div class="home bottom-margin text-color">Home</div>
+                <div class="messages bottom-margin text-color">Messages</div>
+                <div class="history bottom-margin text-color">History</div>
+                <div class="tasks bottom-margin text-color">Tasks</div>
+                <div class="communities bottom-margin text-color">Communities</div>
             </div>
-            <div class="community-share-day">
-                <h4>Community Share day</h4>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, omnis!</p>
-            </div>
-            <div class="updated-privacy-policy">
-                <h4>Updated Privacy Policy</h4>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, ex.</p>
+            <div class="side-sec-2">
+                <div class="settings bottom-margin text-color">Settings</div>
+                <div class="support bottom-margin text-color">Support</div>
+                <div class="privacy bottom-margin text-color">Privacy</div>
             </div>
         </div>
-
-        <!-- trending -->
-
-        <div class="trending">
-            <p>Trending</p>
-            <div class="profile1 profile">
-                <h1>A</h1>
-                <div class="details">
-                    <p class="id">@tegan</p>
-                    <p class="description">World peace builder</p>
+        
+        <!-- main -->
+        <div id="main-section">
+            <!-- projects -->
+            <div class="projects">
+                <p class="your-projects">Your Projects</p>
+                <div class="project-grid">
+                    <div class="project1 project">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iusto. Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="project2 project">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iusto. Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="project3 project">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iusto. Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="project4 project">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iusto. Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="project5 project">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iusto. Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="project6 project">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, iusto. Lorem ipsum dolor sit amet.</p>
+                    </div>
                 </div>
             </div>
-            <div class="profile2 profile">
-                <h1>B</h1>
-                <div class="details">
-                    <p class="id">@tegan</p>
-                    <p class="description">World peace builder</p>
+            <!-- announcements -->
+            <div class="announcements">
+                <p class="announcement-text">Announcements</p>
+                <div class="site-maintainance announcement-style">
+                    <h4>Site Maintainance</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, illo?</p>
+                </div>
+                <div class="community-share-day announcement-style">
+                    <h4>Community Share day</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque, omnis!</p>
+                </div>
+                <div class="updated-privacy-policy announcement-style">
+                    <h4>Updated Privacy Policy</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, ex.</p>
                 </div>
             </div>
-            <div class="profile3 profile">
-                <h1>C</h1>
-                <div class="details">
-                    <p class="id">@tegan</p>
-                    <p class="description">World peace builder</p>
+            <!-- trending -->
+            <div class="trending">
+                <p class="trending-text">Trending</p>
+                <div class="profile1 profile">
+                    <h1>A</h1>
+                    <div class="details">
+                        <p class="id">@tegan</p>
+                        <p class="description">World peace builder</p>
+                    </div>
                 </div>
-            </div>
-            <div class="profile4 profile">
-                <h1>D</h1>
-                <div class="details">
-                    <p class="id">@tegan</p>
-                    <p class="description">World peace builder</p>
+                <div class="profile2 profile">
+                    <h1>B</h1>
+                    <div class="details">
+                        <p class="id">@tegan</p>
+                        <p class="description">World peace builder</p>
+                    </div>
+                </div>
+                <div class="profile3 profile">
+                    <h1>C</h1>
+                    <div class="details">
+                        <p class="id">@tegan</p>
+                        <p class="description">World peace builder</p>
+                    </div>
+                </div>
+                <div class="profile4 profile">
+                    <h1>D</h1>
+                    <div class="details">
+                        <p class="id">@tegan</p>
+                        <p class="description">World peace builder</p>
+                    </div>
                 </div>
             </div>
         </div>
